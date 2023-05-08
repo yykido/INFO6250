@@ -1,0 +1,12 @@
+.myproduct-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-new-product {
+    cursor: pointer;
+}
+
+.product-item {
+    display: flex;
+}

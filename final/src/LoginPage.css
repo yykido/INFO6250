@@ -1,0 +1,58 @@
+.login-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 3rem;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(16, 33, 63);
+}
+
+.input-btn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 1rem;
+}
+
+.login-btn {
+    width: 13.1rem;
+    height: 2.3rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(255, 220, 65);
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    margin-bottom: 1rem;
+}
+
+.login-btn:hover {
+    filter: brightness(85%);
+}
+
+.go-to-signup {
+    color: #007185;
+    cursor: pointer;
+}
+
+.login-input,
+.login-pswd-input {
+    height: 1.7rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-width: 0.08rem;
+    width: 13rem;
+    margin-bottom: 1.2rem;
+}
+
+.invalid-error {
+    color: red;
+    height: 1.5rem;
+}

@@ -1,0 +1,65 @@
+.marketfoods-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-bottom: 100px;
+    margin-right: 40px;
+    background-color: white;
+    padding: 15px;
+    min-height: 570px;
+}
+
+@media (max-width: 900px) {
+    .marketfoods-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .marketfoods-layout{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.card {
+    width: 180px;
+    height: 370px;
+    font-size: 0.8rem;
+}
+
+.food-picture {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-add-btn {
+    margin-top: 10px;
+    background-color: rgb(255, 220, 65);
+    font-size: 14px;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+.card-add-btn:hover {
+    filter: brightness(85%);
+}
+
+.card-username,
+.card-foodId,
+.card-foodname,
+.card-price,
+.card-address,
+.card-email {
+    text-align: left;
+}
+
+.price-text {
+    font-size: 1rem;
+    font-weight: bold;
+}

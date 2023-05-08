@@ -1,0 +1,62 @@
+/* .content-top-container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.storeword-title {
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-left {
+    margin: 1rem;
+}
+
+.main-right {
+    margin: 1rem;  
+}
+
+
+.content-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(16, 33, 63);
+    z-index: 1;
+}
+
+.top-left {
+    margin-left: 1rem;
+    width: 6rem;
+}
+
+.username-logout {
+    margin-right: 1rem;
+}
+
+.content-page {
+    margin-top: 5rem;
+}
+
+.content-username {
+    font-size: 0.8rem;
+}
+
+.logout-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

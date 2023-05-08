@@ -1,0 +1,101 @@
+.cart {
+    margin: 1rem;  
+    width: 300px;
+    height: 600px;
+    background-color: rgb(241, 241, 241);;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-button {
+    margin-top: 10px;
+    background-color: rgb(255, 220, 65);
+    font-size: 14px;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+}
+
+.checkout-button:hover {
+    filter: brightness(85%);
+}
+
+.cart-item {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.cart-title-idx{
+    width: 30px;
+}
+.cart-title-id {
+    width: 30px;
+}
+.cart-title-food {
+    width: 100px;
+}
+.cart-title-price{
+    width: 70px;
+}
+
+
+.cart-up-part {
+    width: 300px;
+}
+
+.in-cart-title {
+    font-weight: bold;
+    display: flex;
+}
+
+/* element in the in-cart-title */
+.item-index {
+    width: 20px;
+}
+.item-id {
+    width: 50px;
+    font-weight: bold;
+}
+.item-foodname {
+    width: 80px;
+    font-weight: bold;
+}
+.item-price {
+    width: 80px;
+    font-weight: bold;
+}
+.item-delete-button{
+    background-color: rgb(187, 187, 187);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.cart-title-rightspace {
+    width: 0px;
+}
+
+.cart-name {
+    background-color: rgb(16, 33, 63);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+}
+
+.already-pick {
+    color: red;
+}
+
+.check-out-total {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
