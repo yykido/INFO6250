@@ -1,0 +1,40 @@
+.login-page {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-container {
+    margin: 10px;
+}
+
+.login-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(108, 180, 106);
+    margin-left: -1px;
+}
+
+.login-input {
+    height: 32px;
+    border-radius: 5px 0 0 5px;
+    border-width: 1px;
+    width: 200px;
+}
+
+.invalid-error {
+    color: red;
+    height: 30px;
+}
+.empty {
+    height: 30px;
+}
