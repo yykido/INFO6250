@@ -1,0 +1,33 @@
+.loading {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading::after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 14px;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: loading 1.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
