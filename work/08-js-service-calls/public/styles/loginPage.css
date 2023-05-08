@@ -1,0 +1,38 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 60vh;
+}
+
+.login-btn {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(22, 50, 104);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#login-error {
+    height: 20px; 
+}
+
+#username {
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184, 181, 181);
+    width: 200px;
+    height: 30px;
+}
+
+#login-error {
+    color: red;
+}
+
