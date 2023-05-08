@@ -1,0 +1,26 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-box {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#username {
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+}
+
+.login-btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+}
