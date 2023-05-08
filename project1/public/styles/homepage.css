@@ -1,0 +1,275 @@
+/* login page */
+html, body {
+    height: 100%;
+}
+
+
+
+body {
+    font-family: Arial;
+    background-color: rgb(245, 245, 245);
+}
+li {
+    list-style-type: none;
+  }
+p {
+    margin: 0px;
+    margin-top: 8px;
+}
+
+/* title and login section */
+.datapage-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #263a26;
+}
+.top-left-box {
+    width: 100px;
+}
+
+.top-mid-box {
+    /* font-size: 30px;
+    font-weight: bold; */
+    margin: 1em 0 0.5em 0;
+	color: #ffffff;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px rgb(161, 161, 161), 0 3px #777;
+}
+
+.top-righ-box {
+    color: white;
+}
+
+.mid-mid-box,
+.mid-top-box,
+.datapage-bot,
+.put-area 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logout-btn {
+    width: 120px;
+    height: 25px;
+    background-color: rgb(126, 124, 124);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+
+/* middle section */
+
+#possible,#guess,#congrats {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0 0.5em 0;
+	color: #343434;
+	font-size: 22px;
+	line-height: 40px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Orienta', sans-serif;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+#possiblebox {
+    display: flex;
+    justify-content: center;
+
+}
+.whiteback {
+    background-color: white;
+}
+
+#guessbox
+{
+    display: flex;
+    justify-content: center;
+}
+.remaining-words {
+    width: 90%;
+    min-height: 220px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184, 181, 181);
+    padding: 8px;
+    box-shadow: 0px 0 10px rgba(0,0,0,0.15);
+}
+
+
+.guessed-words {
+    width: 90%;
+    min-height: 220px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184, 181, 181);
+    padding: 8px;
+    box-shadow: 0px 0 10px rgba(0,0,0,0.15);
+}
+
+
+.mid-mid-box-flex1{
+    flex: 0 0 60%;
+}
+
+.mid-mid-box-flex3{
+    flex: 0 0 40%;
+}
+
+.error {
+    margin-left: 10px;
+    color: red;
+}
+
+.put-area {
+    margin-bottom: 20px;
+}
+
+
+/* bottom section */
+.input-and-buttons {
+    margin-left: 40px;
+}
+
+.words-statics {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+.bot-left {
+    flex: 0 0 60%;
+    margin-top: 30px;
+}
+
+.bot-right {
+    flex: 0 0 40%;
+}
+
+.bot-flexone {
+    flex: 0 0 60%;
+}
+.bot-flextwo {
+    flex: 0 0 80px;
+}
+
+.history-statics {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    min-height: 150px;
+    width: 90%;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184, 181, 181);
+    padding: 8px;
+    box-shadow: 0px 0 10px rgba(0,0,0,0.15);
+}
+.historyinboxtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#history {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-size: 22px;
+	line-height: 40px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Orienta', sans-serif;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+#historybox
+{
+    display: flex;
+    justify-content: center;
+}
+
+.put-text {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    padding-left: 8px;
+}
+
+#guess-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    /* background-color: rgb(37, 115, 233); */
+    background-color: #006400;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-left: -1px;
+
+}
+.restart-btn {
+    width: 90%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: rgb(37, 115, 233); */
+    background-color: #006400;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.restart-btn:hover{
+    opacity: 0.8;
+}
+.restart-btn:active{
+    opacity: 0.5;
+}
+
+.matchnumber {
+    color: orangered;
+    margin-right: 10px;
+}
+
+.targetWord {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
