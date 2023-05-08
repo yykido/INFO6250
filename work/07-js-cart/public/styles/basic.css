@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    height: 1000px;
+    background-color: rgb(238, 238, 238);
+}
+
+.main {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(16, 33, 63);
+    z-index: 1;
+}

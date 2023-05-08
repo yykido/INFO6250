@@ -1,0 +1,129 @@
+.right-side {
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ---cart ---*/
+
+.view-button, .hide-button {
+    margin-top: 10px;
+    background-color: rgb(23, 45, 85);
+    font-size: 16px;
+    border: none;
+    width: 160px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+}
+
+.plus-button, .minus-button {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(23, 45, 85);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.view-button:hover, .hide-button:hover {
+    filter: brightness(150%);
+}
+
+.cart-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---title ---*/
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.title-img {
+    width: 50px;
+    font-weight: bold;
+}
+.title-name {
+    width: 80px;
+}
+.title-quantity {
+    width: 100px;
+}
+.title-total {
+    width: 50px;
+}
+.title-total, .title-quantity, .title-name, .title-img{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+/* ---item ---*/
+.item {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.no-empty{
+    border-bottom: solid 1px;
+    border-color: gray;
+}
+
+.item-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.item-total {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+
+}
+
+.plus-button {
+    margin-left: -10px;
+}
+
+.minus-button {
+    margin-right: -10px;
+}
+
+/* ---checkout---*/
+.checkout-button {
+    margin-top: 10px;
+    background-color: rgb(255, 220, 65);
+    font-size: 14px;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+}
+
+.checkout-button:hover {
+    filter: brightness(85%);
+}
+
+.check-out-total {
+    font-size: 20px;
+    font-weight: bold;
+}

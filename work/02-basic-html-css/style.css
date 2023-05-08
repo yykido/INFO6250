@@ -1,0 +1,16 @@
+header,footer{
+    background-color: aqua;
+}
+
+main {
+    background-color: pink;
+}
+
+header {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+body {
+    color:rgb(63, 63, 63)
+}
